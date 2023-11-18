@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&family=Tajawal:wght@300&display=swap');
+
+.fontHeader {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.containerHeader {
+  box-shadow: 6px 5px 8px black, -6px -5px 8px black;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+}
