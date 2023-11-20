@@ -20,10 +20,13 @@ Aplikasi ini dibuat dengan Framework PHP (Laravel) dan EJS.
 Saya menyarankan anda saat mengikuti langkah - langkah ini terlebih dahulu. Terima kasih ~~~
 
     1. Buka File Backend lalu jalankan ini
+    composer install
+    php artisan key:generate
     php artisan migrate
     php artisan serve
     
-    2. Buka File Frontend lalu jalankan ini
+    2. Buka File Frontend hapus node_modules lalu jalankan ini
+    npm install
     npm start
     
     Aplikasi akan terbuka di localhost:3000
